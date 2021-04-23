@@ -1,5 +1,4 @@
-import os 
-import time
-while(True):
+import requests,time
+while (True):
 	time.sleep(2)
-	print("test")
+	print(requests.get("https://www.google.com"))
