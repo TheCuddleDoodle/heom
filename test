@@ -1,3 +1,0 @@
-import os
-while(True): 
-  print("Test"+x)
